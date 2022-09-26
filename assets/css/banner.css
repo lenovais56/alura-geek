@@ -1,0 +1,26 @@
+.banner {
+    align-items: flex-start;
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 4.875em 1em 1em 1em;
+}
+
+.banner__titulo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    padding: 1em 0;
+}
+
+.banner__btn {
+    align-items: center;
+    background: var(--azul);
+    font-weight: 600;
+    padding: 1em 2em;
+}
