@@ -1,0 +1,47 @@
+.cabecalho {
+    align-items: center;
+    background: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    position: relative;
+}
+
+.cabecalho__logo {
+    width: 6.25em;
+}
+
+.cabecalho__btn {
+    align-self: stretch;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    font-size: 14px;
+    font-weight: 600;
+    gap: .5em;
+    padding: 1em 4em;
+}
+
+.caixa__pesquisa {
+    align-items: center;
+    background: transparent;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    right: 0;
+    width: 0;
+}
+
+.cabecalho__input {
+    background: none;
+    border: none;
+    display: none;
+    font-size: 14px;
+    outline: none;
+    padding: 0;
+    right: 0;
+}
+
+.fa-solid {
+    color: var(--preto);
+}

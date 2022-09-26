@@ -1,0 +1,16 @@
+@import url("header.css");
+
+:root{
+    --azul: #2A7AE4;
+    --preto: #464646;
+    --branco: #FFFFFF;
+    --cor-de-fundo: #E5E5E5;
+    --fonte-principal: "Raleway";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal), sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
