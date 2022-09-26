@@ -1,6 +1,6 @@
 .banner {
     align-items: flex-start;
-    background: url(../img/banner.png) no-repeat;
+    background: url(../img/banner.png) center no-repeat;
     background-size: cover;
     color: var(--branco);
     display: flex;
