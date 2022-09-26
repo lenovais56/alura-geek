@@ -1,0 +1,68 @@
+.rodape {
+    align-items: center;
+    background-color: var(--azul-claro);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.link__logo {
+    margin: 1em;
+}
+
+.rodape__item {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.item__link {
+    color: var(--preto);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    width: 90vw;
+}
+
+.formulario__titulo {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.formulario__nome {
+    border: none;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.formulario__mensagem {
+    border: none;
+    padding: 1em 1em 2.5em 1em;
+}
+
+.formulario__nome::placeholder, .formulario__mensagem::placeholder {
+    color: var(--cinza);
+}
+
+.formulario__btn {
+    background-color: var(--azul);
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 14px;
+    margin: 2em 0 1em 0;
+    padding: 1em 2em;
+    text-align: center;
+    width: 35vw;
+}
+
+.desenvolvido {
+    background-color: var(--branco);
+    padding: 2em 4em;
+    text-align: center;
+    width: 100vw;
+}

@@ -5,9 +5,11 @@
 
 :root{
     --azul: #2A7AE4;
-    --preto: #464646;
+    --azul-claro: #EAF2FD;
     --branco: #FFFFFF;
+    --cinza: #A2A2A2;
     --cor-de-fundo: #E5E5E5;
+    --preto: #464646;
     --fonte-principal: "Raleway";
 }
 
