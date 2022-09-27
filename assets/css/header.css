@@ -45,3 +45,9 @@
 .fa-solid {
     color: var(--preto);
 }
+
+@media screen and (min-width: 768px){
+    .cabecalho__btn {
+        order: 3;
+    }
+}

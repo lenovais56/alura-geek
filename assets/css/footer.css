@@ -65,3 +65,42 @@
     padding: 2em 4em;
     text-align: center;
 }
+
+@media screen and (min-width: 768px){
+
+    .rodape {
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2em;
+    }
+
+    .lista__links {
+        padding-right: 2em;
+    }
+
+    .link__logo {
+        width: 176px;
+    }
+
+    .rodape__lista {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item__link {
+        align-items: flex-start;
+        color: var(--preto);
+        font-weight: 500;
+    }
+
+    .formulario {
+        width: 50vw;
+    }
+
+    .formulario__btn {
+        width: 20vw;
+    }
+}

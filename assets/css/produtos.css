@@ -52,3 +52,20 @@ li:nth-last-child(-n + 2) {
     font-weight: 700;
     font-size: 14px;
 }
+
+@media screen and (min-width: 768px){
+
+    .produtos {
+        padding: 2em;
+    }
+
+    .produtos__texto, .produtos__texto i {
+        font-size: 16px;
+    }
+    
+    .item__link{
+        color: var(--azul);
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
