@@ -31,6 +31,7 @@
     }
 
     .rodape {
+        align-items: flex-start;
         justify-content: space-around;
         flex-direction: row;
         flex-wrap: wrap;
@@ -53,10 +54,16 @@
 
     .item__link {
         align-items: flex-start;
+        color: var(--preto);
+        font-weight: 500;
     }
 
     .formulario {
         width: 50vw;
+    }
+
+    .formulario__btn {
+        width: 20vw;
     }
 }
 
