@@ -24,4 +24,10 @@
 - ``CSS``
 - ``VS code``
 
-## 💻 Link do site
+## 💻 Figma
+
+https://www.figma.com/file/ISaV12Z8KEJ9bDW1tZlSC1/AluraGeek---Challenge-(Copy)
+
+## 💻 Trello
+
+https://trello.com/b/kAduXvT6/challenge-front-end-semana-1

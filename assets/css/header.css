@@ -2,6 +2,7 @@
     align-items: center;
     background: var(--branco);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 1em;
     position: relative;
@@ -21,25 +22,24 @@
     padding: 1em 4em;
 }
 
-.caixa__pesquisa {
-    align-items: center;
-    background: transparent;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    right: 0;
-    width: 0;
+.cabecalho__check {
+    display: none;
+}
+
+.cabecalho__check:checked~.cabecalho__input {
+    display: block;
 }
 
 .cabecalho__input {
-    background: none;
+    background: var(--cinza-claro);
     border: none;
+    border-radius: 20px;
     display: none;
+    position: absolute;
     font-size: 14px;
-    outline: none;
-    padding: 0;
-    right: 0;
+    padding: 1em;
+    right: 1%;
+    top: 100%;
 }
 
 .fa-solid {
@@ -49,5 +49,21 @@
 @media screen and (min-width: 768px){
     .cabecalho__btn {
         order: 3;
+    }
+    .cabecalho__check, .cabecalho__label {
+        display: none;
+    }
+    .cabecalho__input {
+        color: var(--cinza);
+        display: block;
+        position: relative;
+        padding: 1em;
+        width: 240px;
+        max-width: 300px;
+    }
+    .cabecalho__input::placeholder {
+        background: url(../img/lupa-preto.svg) no-repeat;
+        background-position: 15em;
+        color: var(--cinza);
     }
 }

@@ -61,9 +61,16 @@
 }
 
 .desenvolvido {
+    align-items: center;
     background-color: var(--branco);
+    display: flex;
+    justify-content: center;
     padding: 2em 4em;
     text-align: center;
+}
+
+.desenvolvido__titulo {
+    width: 40%;
 }
 
 @media screen and (min-width: 768px){
