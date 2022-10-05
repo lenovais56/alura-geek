@@ -1,12 +1,12 @@
 .banner {
-    align-items: flex-start;
+    align-items: center;
     background: url(../img/banner.png) center no-repeat;
     background-size: cover;
     color: var(--branco);
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    padding: 4.875em 1em 1em 1em;
+    padding: 4.875em .5em 2em 1em;
 }
 
 .banner__titulo {
@@ -15,7 +15,7 @@
 }
 
 .banner__texto {
-    padding: 1em 0;
+    padding: .5em 0 2em 0;
 }
 
 .banner__btn {
@@ -26,7 +26,6 @@
 }
 
 @media screen and (min-width: 768px){
-
     .banner {
         padding: 10em 2em 2em 2em;
     }
@@ -38,5 +37,19 @@
     .banner__texto {
         font-size: 22px;
         font-weight: 700;
+    }
+}
+@media screen and (min-width: 1200px){
+    .banner {
+        height: 35vh;
+        padding: 5em 5em 0 5em;
+    }
+    .banner__content {
+        margin-top: 6em;
+        max-width: 1200px;
+        width: 900px;
+    }
+    .banner__texto {
+        margin: 1em 0;
     }
 }

@@ -16,8 +16,10 @@
 </head>
 <body>
     <header class="cabecalho">
-        <img src="assets/img/Logo.png" alt="Logo da Alura Geek" class="cabecalho__logo">
-        <a href="#" class="cabecalho__btn">Login</a>
+        <a href="index.html">
+            <img src="assets/img/Logo.png" alt="Logo da Alura Geek" class="cabecalho__logo">
+        </a>
+        <a href="login.html" class="cabecalho__btn">Login</a>
         <input type="checkbox" name="check" id="check" class="cabecalho__check">
         <label for="check" class="cabecalho__label">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -25,9 +27,11 @@
         <input type="text" class="cabecalho__input" placeholder="O que deseja encontrar?">
     </header>
     <section class="banner">
-        <h2 class="banner__titulo">Dezembro Promocional</h2>
-        <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
-        <a href="#" class="banner__btn">Ver Consoles</a>
+        <div class="banner__content">
+            <h2 class="banner__titulo">Dezembro Promocional</h2>
+            <p class="banner__texto">Produtos selecionados com 33% de desconto</p>
+            <a href="#" class="banner__btn">Ver Consoles</a>
+        </div> 
     </section>
     <secttion class="produtos">
         <div class="produtos__cabecalho">
@@ -56,6 +60,18 @@
             </li>
             <li class="produtos__item">
                 <img src="assets/img/produtos4.svg" alt="" class="item__imagem">
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
+            <li class="produtos__item produtos__desktop">
+                <img src="assets/img/produtos-desktop1.svg" alt="" class="item__imagem">
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
+            <li class="produtos__item produtos__desktop">
+                <img src="assets/img/produtos-desktop2.svg" alt="" class="item__imagem">
                 <h2 class="item__titulo">Produto XYZ</h2>
                 <p class="item__valor">R$ 60,00</p>
                 <a href="#" class="item__link">Ver produto</a>
@@ -93,6 +109,18 @@
                 <p class="item__valor">R$ 60,00</p>
                 <a href="#" class="item__link">Ver produto</a>
             </li>
+            <li class="produtos__item produtos__desktop">
+                <img src="assets/img/produtos-desktop3.svg" alt="" class="item__imagem">
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
+            <li class="produtos__item produtos__desktop">
+                <img src="assets/img/produtos-desktop4.svg" alt="" class="item__imagem">
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
         </ul>
     </secttion>
     <secttion class="produtos">
@@ -126,43 +154,57 @@
                 <p class="item__valor">R$ 60,00</p>
                 <a href="#" class="item__link">Ver produto</a>
             </li>
+            <li class="produtos__item produtos__desktop">
+                <img src="assets/img/produtos-desktop5.svg" alt="" class="item__imagem">
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
+            <li class="produtos__item produtos__desktop">
+                <img src="assets/img/produtos-desktop6.svg" alt="" class="item__imagem">
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
         </ul>
     </secttion>
     <footer class="rodape">
-        <div class="lista__links">
-            <a href="#" class="link__logo">
-                <img src="assets/img/Logo.png" alt="Logo da Alura Geek">
-            </a>
-            <ul class="rodape__lista">
-                <li class="rodape__item">
-                    <a href="" class="item__link">Quem somos nós</a>
-                </li>
-                <li class="rodape__item">
-                    <a href="" class="item__link">Política de privacidade</a>
-                </li>
-                <li class="rodape__item">
-                    <a href="" class="item__link">Programa fidelidade</a>
-                </li>
-                <li class="rodape__item">
-                    <a href="" class="item__link">Nossas lojas</a>
-                </li>
-                <li class="rodape__item">
-                    <a href="" class="item__link">Quero ser franqueado</a>
-                </li>
-                <li class="rodape__item">
-                    <a href="" class="item__link">Anuncie aqui</a>
-                </li>
-            </ul>
+        <div class="rodape__conteudo">
+            <div class="lista__links">
+                <a href="#" class="rodape__logo">
+                    <img src="assets/img/Logo.png" alt="Logo da Alura Geek">
+                </a>
+                <ul class="rodape__lista">
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Quem somos nós</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Política de privacidade</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Programa fidelidade</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Nossas lojas</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Quero ser franqueado</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Anuncie aqui</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="" class="formulario">
+                <h3 class="formulario__titulo">Fale conosco</h3>
+                <input class="formulario__nome" type="text" name="nome" placeholder="Nome">
+                <input class="formulario__mensagem" type="text" name="mensagem" placeholder="Escreva sua mensagem">
+                <a href="#" class="formulario__btn">Enviar mensagem</a>
+            </form>
         </div>
-        <form action="" class="formulario">
-            <h3 class="formulario__titulo">Fale conosco</h3>
-            <input class="formulario__nome" type="text" name="nome" placeholder="Nome">
-            <input class="formulario__mensagem" type="text" name="mensagem" placeholder="Escreva sua mensagem">
-            <a href="#" class="formulario__btn">Enviar mensagem</a>
-        </form>
     </footer>
     <div class="desenvolvido">
-        <h3 class="desenvolvido__titulo">Desenvolvido por Leandro Novais 2022</h3>
+        <h3 class="desenvolvido__titulo">Desenvolvido por <a href="https://github.com/lenovais56" target="_blank">Leandro Novais</a> 2022</h3>
     </div>
     
     

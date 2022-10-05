@@ -3,9 +3,12 @@
 @import url("produtos.css");
 @import url("footer.css");
 
+@import url("login.css");
+
 :root{
     --azul: #2A7AE4;
     --azul-claro: #EAF2FD;
+    --azul-claro-2: #D4E4FA;
     --branco: #FFFFFF;
     --cinza: #A2A2A2;
     --cinza-claro: #F5F5F5;
@@ -16,7 +19,11 @@
 
 body {
     background-color: var(--cor-de-fundo);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-family: var(--fonte-principal), sans-serif;
     font-size: 16px;
     font-weight: 400;
+    justify-content: center;
 }

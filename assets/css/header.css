@@ -13,7 +13,7 @@
 }
 
 .cabecalho__btn {
-    align-self: stretch;
+    align-self: center;
     border: 1px solid var(--azul);
     color: var(--azul);
     font-size: 14px;
@@ -58,12 +58,33 @@
         display: block;
         position: relative;
         padding: 1em;
-        width: 240px;
-        max-width: 300px;
+        width: 300px;
+        max-width: 350px;
     }
     .cabecalho__input::placeholder {
         background: url(../img/lupa-preto.svg) no-repeat;
-        background-position: 15em;
+        background-position: 20em;
         color: var(--cinza);
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .cabecalho {
+        justify-content: center;
+        padding: 2em 5em;
+    }
+    .cabecalho__logo {
+        padding-right: 2em;
+        width: 11em;
+    }
+
+    .cabecalho__btn:focus {
+        background-color: var(--azul-claro-2);
+        color: var(--azul);
+    }
+    .cabecalho__input  {
+        margin-right: 20%;
+        width: 393px;
     }
 }
