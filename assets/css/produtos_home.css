@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
     .cabecalho__link {
         margin-right: 10em;
     }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek | Login</title>
+    <title>Alura Geek | Novo produto</title>
 
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,25 +16,28 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="index.html" class="cabecalho__link">
+        <a href="index.html">
             <img src="assets/img/Logo.png" alt="Logo da Alura Geek" class="cabecalho__logo">
         </a>
+        <a href="login.html" class="cabecalho__btn--admin">Menu administrador</a>
         <input type="checkbox" name="check" id="check" class="cabecalho__check">
         <label for="check" class="cabecalho__label">
             <i class="fa-solid fa-magnifying-glass"></i>
         </label>
-        <input type="text" class="cabecalho__input cabecalho__input--login" placeholder="O que deseja encontrar?">
+        <input type="text" class="cabecalho__input" placeholder="O que deseja encontrar?">
     </header>
-<!--  -->
-    <section class="iniciar">
-        <div class="iniciar__conteuto">
-            <h2 class="iniciar__titulo">Iniciar Sessão</h2>
-            <input type="email" name="email" id="iniciar--email" class="iniciar__email" placeholder="Escreva seu email">
-            <input type="password" name="senha" id="iniciar--senha" class="iniciar__senha" placeholder="Escreva sua senha">
-            <a href="novo-produto.html" class="iniciar__btn">Entrar</a>
-        </div>
+    <section class="novo__produto">
+        <form action="" class="formulario__produto">
+            <h3 class="formulario__produto--titulo">Adicionar novo produto</h3>
+            <input class="formulario__produto--input formulario__produto--nome" type="text" name="url" placeholder="URL da imagem">
+            <input class="formulario__produto--input formulario__produto--categoria" type="text" name="categoria" placeholder="Categoria">
+            <input class="formulario__produto--input formulario__produto--mensagem" type="text" name="nome-produto" placeholder="Nome do produto">
+            <input class="formulario__produto--input formulario__produto--mensagem" type="text" name="preco-produto" placeholder="Preço do produto">
+            <input class="formulario__produto--input formulario__produto--descricao" type="text" name="descricao" placeholder="Descrição do produto">
+            <a href="#" class="formulario__btn--produto">Adicionar produto</a>
+        </form>
     </section>
-<!--  -->
+
     <footer class="rodape">
         <div class="rodape__conteudo">
             <div class="lista__links">
