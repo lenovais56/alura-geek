@@ -1,0 +1,63 @@
+.produtos__cabecalho--pagina {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos__btn {
+    background: var(--azul);
+    color: var(--branco);
+    font-weight: 600;
+    margin: 1em 0;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.produtos__item--edicao {
+    position: relative;
+}
+
+.produtos__edicao {
+    position: absolute;
+    margin-right: .5em;
+}
+
+.produtos__edicao i {
+    color: var(--branco);
+}
+
+.produtos__edicao, .produtos__editar {
+    top: 10px;
+}
+
+.produtos__excluir {
+    right: 40px;
+}
+
+.produtos__editar {
+    right: 3px;
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho__link {
+        margin-right: 8em;
+    }
+    .produtos__cabecalho--pagina {
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .cabecalho__link {
+        margin-right: 10em;
+    }
+
+    .produtos__titulo {
+        font-size: 32px;
+    }
+
+    .produtos__item {
+        margin-top: 1em;
+    }
+}

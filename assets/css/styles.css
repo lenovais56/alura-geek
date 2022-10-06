@@ -5,6 +5,8 @@
 
 @import url("login.css");
 
+@import url("pagina_produtos.css");
+
 :root{
     --azul: #2A7AE4;
     --azul-claro: #EAF2FD;

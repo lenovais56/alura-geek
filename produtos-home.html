@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek | Produtos Home</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html" class="cabecalho__link">
+            <img src="assets/img/Logo.png" alt="Logo da Alura Geek" class="cabecalho__logo">
+        </a>
+        <input type="checkbox" name="check" id="check" class="cabecalho__check">
+        <label for="check" class="cabecalho__label">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </label>
+        <input type="text" class="cabecalho__input cabecalho__input--login" placeholder="O que deseja encontrar?">
+    </header>
+
+    <secttion class="produtos">
+        <div class="produtos__cabecalho produtos__cabecalho--pagina">
+            <h2 class="produtos__titulo">Todos os produtos</h2>
+            <a href="produtos.html" class="produtos__btn">Adicionar produto</a>
+        </div>
+        <ul class="produtos__lista">
+            <li class="produtos__item">
+                <div class="produtos__item--edicao">
+                    <a href="#" class="produtos__edicao produtos__excluir">
+                        <i class="fa-solid fa-trash"></i>
+                    </a>
+                    <a href="#" class="produtos__edicao produtos__editar">
+                        <i class="fa-solid fa-pen"></i>
+                    </a>
+                    <img src="assets/img/produtos1.svg" alt="" class="item__imagem">
+                </div>
+                <h2 class="item__titulo">Produto XYZ</h2>
+                <p class="item__valor">R$ 60,00</p>
+                <a href="#" class="item__link">Ver produto</a>
+            </li>
+        </ul>
+    </secttion>
+
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <div class="lista__links">
+                <a href="#" class="rodape__logo">
+                    <img src="assets/img/Logo.png" alt="Logo da Alura Geek">
+                </a>
+                <ul class="rodape__lista">
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Quem somos nós</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Política de privacidade</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Programa fidelidade</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Nossas lojas</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Quero ser franqueado</a>
+                    </li>
+                    <li class="rodape__item">
+                        <a href="" class="item__link">Anuncie aqui</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="" class="formulario">
+                <h3 class="formulario__titulo">Fale conosco</h3>
+                <input class="formulario__nome" type="text" name="nome" placeholder="Nome">
+                <input class="formulario__mensagem" type="text" name="mensagem" placeholder="Escreva sua mensagem">
+                <a href="#" class="formulario__btn">Enviar mensagem</a>
+            </form>
+        </div>
+    </footer>
+    <div class="desenvolvido">
+        <h3 class="desenvolvido__titulo">Desenvolvido por <a href="https://github.com/lenovais56" target="_blank">Leandro Novais</a> 2022</h3>
+    </div>
+</body>
