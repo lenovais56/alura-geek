@@ -9,6 +9,8 @@
 
 @import url("novo_produto.css");
 
+@import url("produtos_xyz.css");
+
 :root{
     --azul: #2A7AE4;
     --azul-claro: #EAF2FD;
